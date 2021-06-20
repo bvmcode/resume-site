@@ -1,0 +1,262 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+
+<div class="container-fluid resume">
+
+
+
+  <div class="top-section">
+    <div class="row w-100 top-title" >
+      <img id="this-fn-img" src="{{ url_for('static',filename='images/python.png') }}"></img>
+        <h1>  the python geek</h1>
+      </div>
+
+    <div class="row w-100">
+        <div class="col-sm">
+          <div id="main-img">
+          <img src="{{ url_for('static',filename='images/me.png') }}"></img>
+        </div>
+        </div>
+        <div class="col-sm resume-header-text about-me">
+          <div id="about-container">
+            <div id="about-me-header-container">
+              <h3 >About Me</h3>
+            </div>
+          <div class='mylist'>
+          <ul>
+            <li> Hi, my name is <strong><u>Barry Martin</u></strong>.</li>
+            <li>I am a <strong><u>data scientist</u></strong> at a Fortune 200 company in the transportation and logistics industry.</li>
+            <li>I am a <strong><u>continous learner</u></strong> at heart where new books, courses and subscriptions fill a lot of my time.</li>
+            <li>I am a proud <strong><u>husband and dad</u></strong> to my lovely wife and two wonderful boys.</li>
+            <li>I am a big <strong><u>music fan</u></strong>, particularly 80s retro.</li>
+            <li>I am also a <strong><u>sci-fi fan</u></strong> and love movies and shows that fall in that genre.</li>
+            <li>I an occasional COD <strong><u>gamer</u></strong> and also fire up the Sega Genesis from time to time.</li>
+          </ul>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+
+
+    <hr>
+
+<div class="skills-section">
+    <div class="row w-100 resume-title" >
+        <h2> skills </h2>
+      </div>
+
+      <div class="row w-100 skills">
+        <div class="col-sm">
+            <h3>Programming Languages</h3>
+            <h5>Python</h5>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h5>SQL</h5>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h5>Javascript</h5>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width:75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h5>Bash scripting</h5>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h5>R</h5>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="col-sm">
+           <h3>Libraries and Frameworks</h3>
+           <h5>SciPy</h5>
+           <div class="progress">
+             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+           </div>
+           <h5>Plotly Dash</h5>
+           <div class="progress">
+             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+           </div>
+           <h5>Streamlit</h5>
+           <div class="progress">
+             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+           </div>
+           <h5>Flask</h5>
+           <div class="progress">
+             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+           </div>
+           <h5>React</h5>
+           <div class="progress">
+             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+           </div>
+        </div>
+        <div class="col-sm">
+          <h3>Databases</h3>
+          <h5>MS SQL Server</h5>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5>SSRS</h5>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5>Hadoop/Hive</h5>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5>Postgresql</h5>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5>Snowflake</h5>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+       </div>
+       <div class="col-sm">
+        <h3>Tools and Cloud</h3>
+        <h5>MS Power BI</h5>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h5>Docker</h5>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h5>Linux</h5>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h5>Airflow</h5>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h5>Azure services</h5>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+     </div>
+      </div>
+    </div>
+
+
+    <hr>
+
+
+
+
+    <div class="experience-section">
+      <div class="row w-100 resume-title" >
+          <h2> experience </h2>
+        </div>
+        <div class="row w-100 experience">
+            <div class="col-sm">
+              <h3 class="exp-employer">Data Scientist at CH Robinson (2021) </h3>
+              <ul>
+                <li>Develop apps using python frameworks (flask/plotly/streamlit), Power BI, SSRS, R Shiny</li>
+                <li>Use Jupyter notebooks for analysis and visuals</li>
+                <li>Write complex queries in MS SQL Server, Hadoop/Hive and Postgres environments</li>
+                <li>Develop data pipelines using python and land data in postgres</li>
+                <li>Work in agile environment and use corporate github for managing code</li>
+                <li>Develop in linux environment and use docker for containerization</li>
+              </ul>
+            </div>
+
+            <div class="col-sm">
+              <h3 class="exp-employer">Data Analyst at CH Robinson (2013-2021)</h3>
+              <ul>
+                <li>Worked in a ticket system to field data requests</li>
+                <li>Worked with stakeholders on large initiatives</li>
+                <li>Use Jupyter notebooks for analysis and visuals</li>
+                <li>Wrote complex queries in MS SQL Server and Hadoop/Hive environments</li>
+                <li>Developed dashboards in Excel, Power PI, SSRS and Crystal Reports</li>
+                <li>Used python and VBA to automate jobs</li>
+              </ul>
+            </div>
+        </div>
+
+      </div>
+
+
+      <hr>
+
+
+
+      <div class="education-section">
+        <div class="row w-100 resume-title" >
+            <h2>education </h2>
+          </div>
+          <div class="row w-100 education">
+              <div class="col-sm school1">
+                <h3 class="edu-school">University of Massachusetts Lowell</h3>
+                    <div class="row">
+                      <div class="col-sm">
+                        <img  src="{{ url_for('static',filename='images/umass.png') }}"></img>
+                      </div>
+                      <div class="col-sm">
+                        <ul class="edu-list">
+                          <li>Bachelors in Information Technology</li>
+                          <li>Relational Databases</li>
+                          <li>Multiple Programming langauges</li>
+                          <li>Web development</li>
+                          <li>3.8 GPA</li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-sm school2">
+                <h3 class="edu-school">University of Oklahoma </h3>
+                    <div class="row">
+                      <div class="col-sm">
+                        <img  src="{{ url_for('static',filename='images/ou.png') }}"></img>
+                      </div>
+                      <div class="col-sm">
+                        <ul class="edu-list">
+                          <li>Bachelors in Atmospheric Science</li>
+                          <li>Minor in Mathematics</li>
+                          <li>Statistics and Probability</li>
+                          <li>Numerical Methods and Programming</li>
+                          <li>3.5 GPA</li>
+                        </ul>
+                      </div>
+                    </div>
+              </div>
+          </div>
+  
+        </div>
+
+
+        <hr>
+
+
+
+        <div class="social-section">
+          <div class="row w-100 resume-title" >
+              <h2>socials</h2>
+            </div>
+            <div class="row w-100 social">
+              <div class="col-sm">
+                <p><a href="https://www.linkedin.com/in/martbar/" class="fa fa-linkedin fa-5x"></a></p>
+              </div>
+              <div class="col-sm">
+                <p><a href="https://github.com/bvmcode" class="fa fa-github fa-5x"></a></p>
+              </div>
+              <div class="col-sm">
+                <p><a href="https://medium.com/@thepythongeek" class="fa fa-medium fa-5x"></a></p>
+              </div>
+              <div class="col-sm">
+                <p><a href="mailto:bvmcode@thepythongeek.com"class="fa fa-envelope-square fa-5x"></a></p>
+              </div>
+            </div>
+            
+          </div>
+
+      </div>
+
+
+{% endblock %}

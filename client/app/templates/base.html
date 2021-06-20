@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tim Robert-Fitzgerald is current freshmen at Oberlin College, and a freelance web developer on the weekends.">
+    <meta name="author" content="Tim Robert-Fitzgerald">
+ 
+    <script src="{{ url_for('static',filename='node_modules/jquery/dist/jquery.min.js') }}"></script>
+    <link rel= "stylesheet" href= "{{ url_for('static',filename='node_modules/bootstrap/dist/css/bootstrap.css') }}">
+    <script src="{{ url_for('static',filename='node_modules/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Press Start 2P">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fredericka the Great">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source Code Pro">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Libre Barcode 39 Text">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Orbitron">
+
+    <link rel= "stylesheet" href= "{{ url_for('static',filename='node_modules/font-awesome/css/font-awesome.css') }}">
+
+    <link rel= "stylesheet" href= "{{ url_for('static',filename='css/base.css') }}">
+    <link rel= "stylesheet" href= "{{ url_for('static',filename='css/mobile.css') }}">
+
+    <title>thepythongeek - barry v martin</title>
+
+ 
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <img class="navbar-image" src="{{ url_for('static',filename='images/python.png') }}"></img>
+    <a href="/" class="navbar-brand header-title" href="#">the python geek</a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="/" class="nav-link" href="#">who am i?</a>
+        </li>
+        <li class="nav-item">
+          <a href="/example" class="nav-link" href="#">example work</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="social-buttons">
+      <div class="share">
+        <a href="https://www.linkedin.com/in/martbar/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://github.com/bvmcode" target="_blank" class="fa fa-github"></a>
+        <a href="https://medium.com/@thepythongeek" target="_blank" class="fa fa-medium"></a>
+        <a href="mailto:bvmcode@thepythongeek.com" class="fa fa-envelope-square"></a>
+      </div>
+    </div>
+  </nav>
+
+        
+    {% block page_content %}
+    
+    {% endblock %}
+
+    <br>
+    <br>
+    <br>
+    
+
+ 
+</body>
+</html>

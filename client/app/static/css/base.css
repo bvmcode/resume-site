@@ -1,0 +1,291 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-title{
+    font-family: 'Orbitron', sans-serif;
+    margin-left:1%;
+}
+
+.social-button {
+    float: right;
+    }
+
+    
+
+.fa {
+    color: lightgray; 
+    text-decoration: none; 
+    font-size:110%;
+
+    }
+
+.fa:hover {
+        color: gray;     
+    }
+
+.navbar-image{
+        height:25px;
+        width:25px;
+    }
+    
+
+
+
+
+
+
+
+.top-title {
+     margin-bottom:3%;
+     width:100%;
+}
+
+.top-title h1{
+    font-family: 'Libre Barcode 39 Text', sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size:500%;
+}
+
+#this-fn-img{
+    display: inline-block;
+    height: 150px;
+    width:150px;
+    margin:0 auto;
+}
+
+
+#main-img img{
+    display: block;
+    height: 400px;
+    width:400px;
+    max-width: 100%;
+    margin:0 auto;
+    border-radius: 50%;
+    border: solid black 3px;
+}
+
+.about-me h3{
+    font-family: 'Orbitron', sans-serif;
+    margin:2% auto;
+    color:white;
+    padding:2%;
+    text-align: center;
+    border-bottom: 2px #f5ce42 solid;
+    border-top: 2px #f5ce42 solid;
+    border-radius: 25px;
+    font-size: 300%;
+}
+
+
+.about-me .mylist{
+    background-color: #273a57;
+    padding:1%;
+    color:white;
+    border-radius: 25px;
+}
+
+.about-me ul{
+    border-left:2px #f5ce42 solid;
+    border-right:2px #f5ce42 solid;
+    text-align: center;
+    margin: 4% auto;
+    padding:0;
+    border-radius: 25px;
+}
+
+.about-me li{
+    list-style-type: none;
+    padding-bottom:3%;
+}
+
+.top-section{
+    background-color:#bacbe6;
+    margin:1%;
+    padding:1%;
+
+}
+#about-me-header-container{   
+    border: 1px black solid;
+    background-color: #273a57;
+    border-radius: 25px;
+}
+#about-container{
+    max-width: 100%;
+    margin:0 auto;
+    margin-right:5%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-section  {
+    margin-top:5%;
+    margin-bottom:2%;
+
+}
+
+.skills-section h2{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom:2%;
+    font-size: 300%;
+}
+.progress{
+    margin:1%;
+}
+.skills{
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:1%;
+}
+.skills h3{
+    border-bottom: solid black 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.experience-section  {
+    margin-top:5%;
+    margin-bottom:2%;
+}
+
+.experience-section h2{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom:2%;
+    font-size: 300%;
+}
+
+.exp-employer{
+    border-bottom: solid black 1px;
+}
+
+.experience{
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:1%;
+}
+
+.experience li {
+    margin-top:2%;
+    
+}
+
+
+
+
+
+
+
+
+
+.education-section  {
+    margin-top:5%;
+    margin-bottom:2%;
+}
+
+
+.education{
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:1%;
+}
+
+.education-section h2{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom:2%;
+    font-size: 300%;
+}
+
+.edu-school{
+    border-bottom: solid black 1px;
+}
+
+.edu-list li {
+    margin-top:5%;
+    margin-right:2%;
+    
+}
+
+
+
+
+
+.social-section  {
+    margin-top:5%;
+    margin-bottom:2%;
+
+}
+.social{
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:1%;
+}
+
+.social-section h2{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom:2%;
+    font-size: 300%;
+}
+
+.social .fa {
+    color: #414744; 
+    text-decoration: none; 
+    cursor: pointer;
+    font-size:400%;
+    }
+
+.social p{
+    text-align: center;
+}
+
+.social .fa:hover {
+    color: #bacbe6;
+    
+    }
+
+#example-title h1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    margin-top:10%;
+}
+
+#example-title img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}

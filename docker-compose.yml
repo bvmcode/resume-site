@@ -1,0 +1,34 @@
+version: '3'
+services:
+
+    app:
+        build: ./client
+        restart: always
+        volumes:
+            - .:/usr/src/app
+        ports:
+            - 8080:5000
+        environment:
+            - FLASK_APP=./app/__init__.py
+            - FLASK_ENV=development
+            - APP_SETTINGS=app.config.ProductionConfig
+        volumes:
+            - ./client:/app
+            - /etc/localtime:/etc/localtime:ro
+            - ./client/logs:/app/logs
+        # expose:
+        #     - 8080
+
+    # nginx:
+    #     build: ./nginx
+    #     container_name: nginx
+    #     restart: always
+    #     depends_on:
+    #         - app
+    #     volumes:
+    #         - ./client/app/static:/etc/nginx/app/project/static
+    #         - ./nginx/ssl/pkey.key:/etc/nginx/pkey.key
+    #         - ./nginx/ssl/pkey.pem:/etc/nginx/pkey.pem
+    #     ports:
+    #         - "80:80"
+    #         - "443:443"

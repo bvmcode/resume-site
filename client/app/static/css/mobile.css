@@ -1,0 +1,591 @@
+@media screen and (max-width: 350px) {
+
+    .resume{
+        padding:0;
+        margin:0;
+    }
+
+    .resume-title h2{
+        font-size:110%;
+        padding-bottom:5%;
+    }
+
+    .resume h3{
+        font-size:100%;
+    }
+
+    
+    .resume h5{
+        font-size:90%;
+    }
+
+    .resume p{
+        font-size:80%;
+    }
+
+    .resume li{
+        font-size:80%;
+    }
+    .header-title{
+        font-size:100%;
+    }
+
+    .top-section{
+        background-color:#bacbe6;
+        margin:1%;
+        padding:1%;
+    
+    }
+    .top-section .row{
+        width:100%;
+        margin:0 auto;
+        padding-bottom:2%;
+    }
+
+    #this-fn-img{
+        height: 100px;
+        width:100px;
+    }
+
+    .top-title h1{
+        font-size:300%;
+    }
+
+    #main-img img{
+        height: 200px;
+        width:200px;
+    }
+
+
+
+    .about-me h3{
+        font-size: 200%;
+        padding:3%;
+    }
+    
+    .about-me ul{
+        margin: 10% auto;
+        padding-left:3%;
+        padding-right:5%;
+    }
+    
+    .about-me li{
+        font-size:80%;
+        padding-bottom:5%;
+        
+    }
+    
+    
+    #about-container{
+        margin-right:0%;
+    }
+
+    .about-me{
+        margin-top:5%;
+        width:100%;
+    }
+
+
+    .skills-section {
+        margin-top:15%;
+    }
+    .skills-section .col-sm{
+        margin-bottom:8%;
+    }
+    .skills-section h2{
+        font-size: 200%;
+    }
+
+
+    .experience-section {
+        margin-top:10%;
+    }
+
+    .experience-section .col-sm{
+        margin-bottom:10%;
+    }
+
+    .experience-section h2{
+        font-size: 200%;
+    }
+
+
+
+    .education-section{
+        margin-top:10%;
+    }
+    .education-section h2{
+        font-size: 200%;
+    }
+    
+
+    .education-section img{
+        display:block;
+        max-width:100%;
+        margin: 0 auto;
+        height:85%;
+        width:60%;
+    }
+
+    .school1{
+        margin-top:0%;
+    }
+    .school2{
+        margin-top:2%;
+    }
+
+    .social-section{
+        margin-top:10%;
+    }
+
+    .social-section h2{
+        font-size:200%;
+    }
+ 
+  }
+
+
+@media screen and (min-width: 350px) and (max-width: 578px) {
+    .resume{
+        padding:0;
+        margin:0;
+    }
+
+    .resume-title h2{
+        font-size:110%;
+        padding-bottom:5%;
+    }
+
+    .resume h3{
+        font-size:100%;
+    }
+
+    
+    .resume h5{
+        font-size:90%;
+    }
+
+    .resume p{
+        font-size:80%;
+    }
+
+    .resume li{
+        font-size:80%;
+    }
+    .header-title{
+        font-size:100%;
+    }
+
+    .top-section{
+        background-color:#bacbe6;
+        margin:1%;
+        padding:1%;
+    
+    }
+    .top-section .row{
+        width:100%;
+        margin:0 auto;
+        padding-bottom:2%;
+    }
+
+    #this-fn-img{
+        height: 100px;
+        width:100px;
+    }
+
+    .top-title h1{
+        font-size:300%;
+    }
+
+    #main-img img{
+        height: 200px;
+        width:200px;
+    }
+
+
+
+    .about-me h3{
+        font-size: 200%;
+        padding:3%;
+    }
+    
+    .about-me ul{
+        margin: 10% auto;
+        padding-left:3%;
+        padding-right:5%;
+    }
+    
+    .about-me li{
+        font-size:80%;
+        padding-bottom:5%;
+        
+    }
+    
+    
+    #about-container{
+        margin-right:0%;
+    }
+
+    .about-me{
+        margin-top:5%;
+        width:100%;
+    }
+
+
+    .skills-section {
+        margin-top:15%;
+    }
+    .skills-section .col-sm{
+        margin-bottom:8%;
+    }
+    .skills-section h2{
+        font-size: 200%;
+    }
+
+
+    .experience-section {
+        margin-top:10%;
+    }
+
+    .experience-section .col-sm{
+        margin-bottom:10%;
+    }
+
+    .experience-section h2{
+        font-size: 200%;
+    }
+
+
+
+    .education-section{
+        margin-top:10%;
+    }
+    .education-section h2{
+        font-size: 200%;
+    }
+    
+
+    .education-section img{
+        display:block;
+        max-width:100%;
+        margin: 0 auto;
+        height:85%;
+        width:60%;
+    }
+
+    .school1{
+        margin-top:0%;
+    }
+    .school2{
+        margin-top:2%;
+    }
+
+    .social-section{
+        margin-top:10%;
+    }
+
+    .social-section h2{
+        font-size:200%;
+    }
+ 
+}
+
+
+
+  
+
+
+  @media screen and (min-width: 578px) and (max-width: 768px) {
+    .resume{
+        padding:0;
+        margin:0;
+    }
+
+    .resume-title h2{
+        font-size:110%;
+        padding-bottom:5%;
+    }
+
+    .resume h3{
+        font-size:100%;
+    }
+
+    
+    .resume h5{
+        font-size:90%;
+    }
+
+    .resume p{
+        font-size:80%;
+    }
+
+    .resume li{
+        font-size:80%;
+    }
+    .header-title{
+        font-size:100%;
+    }
+
+    .top-section{
+        background-color:#bacbe6;
+        margin:1%;
+        padding:1%;
+    
+    }
+    .top-section .row{
+        width:100%;
+        margin:0 auto;
+        padding-bottom:2%;
+    }
+
+    #this-fn-img{
+        height: 100px;
+        width:100px;
+    }
+
+    .top-title h1{
+        font-size:300%;
+    }
+
+    #main-img img{
+        height: 200px;
+        width:200px;
+    }
+
+
+
+    .about-me h3{
+        font-size: 200%;
+        padding:3%;
+    }
+    
+    .about-me ul{
+        margin: 10% auto;
+        padding-left:3%;
+        padding-right:5%;
+    }
+    
+    .about-me li{
+        font-size:80%;
+        padding-bottom:5%;
+        
+    }
+    
+    
+    #about-container{
+        margin-right:0%;
+    }
+
+    .about-me{
+        margin-top:5%;
+        width:100%;
+    }
+
+
+    .skills-section {
+        margin-top:15%;
+    }
+    .skills-section .col-sm{
+        margin-bottom:8%;
+    }
+    .skills-section h2{
+        font-size: 200%;
+    }
+
+
+    .experience-section {
+        margin-top:10%;
+    }
+
+    .experience-section .col-sm{
+        margin-bottom:10%;
+    }
+
+    .experience-section h2{
+        font-size: 200%;
+    }
+
+
+
+    .education-section{
+        margin-top:10%;
+    }
+    .education-section h2{
+        font-size: 200%;
+    }
+    
+
+    .education-section img{
+        display:block;
+        max-width:100%;
+        margin: 0 auto;
+        height:65%;
+        width:100%;
+    }
+
+    .school1{
+        margin-top:0%;
+    }
+    .school2{
+        margin-top:2%;
+    }
+
+    .social-section{
+        margin-top:10%;
+    }
+
+    .social-section h2{
+        font-size:200%;
+    }
+ 
+  }
+  
+
+  
+  @media screen and (min-width: 768px)  and (max-width: 1024px) {
+    .resume{
+        padding:0;
+        margin:0;
+    }
+
+    .resume-title h2{
+        font-size:110%;
+        padding-bottom:5%;
+    }
+
+    .resume h3{
+        font-size:100%;
+    }
+
+    
+    .resume h5{
+        font-size:90%;
+    }
+
+    .resume p{
+        font-size:80%;
+    }
+
+    .resume li{
+        font-size:80%;
+    }
+    .header-title{
+        font-size:100%;
+    }
+
+    .top-section{
+        background-color:#bacbe6;
+        margin:1%;
+        padding:1%;
+    
+    }
+    .top-section .row{
+        width:100%;
+        margin:0 auto;
+        padding-bottom:2%;
+    }
+
+    #this-fn-img{
+        height: 100px;
+        width:100px;
+    }
+
+    .top-title h1{
+        font-size:300%;
+    }
+
+    #main-img img{
+        height: 200px;
+        width:200px;
+    }
+
+
+
+    .about-me h3{
+        font-size: 200%;
+        padding:3%;
+    }
+    
+    .about-me ul{
+        margin: 10% auto;
+        padding-left:3%;
+        padding-right:5%;
+    }
+    
+    .about-me li{
+        font-size:80%;
+        padding-bottom:5%;
+        
+    }
+    
+    
+    #about-container{
+        margin-right:0%;
+    }
+
+    .about-me{
+        margin-top:5%;
+        width:100%;
+    }
+
+
+    .skills-section {
+        margin-top:15%;
+    }
+    .skills-section .col-sm{
+        margin-bottom:8%;
+    }
+    .skills-section h2{
+        font-size: 200%;
+    }
+
+
+    .experience-section {
+        margin-top:10%;
+    }
+
+    .experience-section .col-sm{
+        margin-bottom:10%;
+    }
+
+    .experience-section h2{
+        font-size: 200%;
+    }
+
+
+
+    .education-section{
+        margin-top:10%;
+    }
+    .education-section h2{
+        font-size: 200%;
+    }
+    
+
+    .education-section img{
+        display:block;
+        max-width:100%;
+        margin: 0 auto;
+        height:65%;
+        width:100%;
+    }
+
+    .school1{
+        margin-top:0%;
+    }
+    .school2{
+        margin-top:2%;
+    }
+
+    .social-section{
+        margin-top:10%;
+    }
+
+    .social-section h2{
+        font-size:200%;
+    }
+ 
+
+
+
+  }
